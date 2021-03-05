@@ -1,0 +1,48 @@
+/* .header-section {
+  color: white;
+} */
+
+.header__content--left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header-section .Typewriter__wrapper{
+  color: #22FD38;
+  font-weight: bold;
+  font-size: 40px;
+}
+.header-section .Typewriter__cursor{
+  color: #22FD38;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.header__button{
+  padding: 10px 90px 10px 90px !important;
+}
+
+.header__img--container{
+  height: 300px;
+  width: 300px;
+  padding: 50px;
+  border: 2px solid #22FD38;
+  border-radius: 100%;
+}
+
+.header__img{
+  height: 100%;
+  border-radius: 100%;
+}
+
+@media(min-width: 500px){
+  .header__img--container{
+    height: 400px;
+    width: 400px;
+  }
+  .header__content--left{
+    align-items: flex-start;
+  }
+}

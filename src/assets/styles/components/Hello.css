@@ -1,0 +1,24 @@
+.hello__img--container{
+  height: 300px;
+  width: 300px;
+  background-image: url('../../static/helloImg.png');
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: -22px 22px 0px 3px #003184, 22px -22px 0px 3px #22FD38;
+  /* box-shadow: ; */
+  
+}
+
+.hello__img{
+  height: 100%;
+}
+
+@media(min-width: 500px){
+  .hello__img--container{
+    height: 400px;
+    width: 400px;
+  }
+  .hello__cintent--left{
+    align-items: flex-start;
+  }
+}

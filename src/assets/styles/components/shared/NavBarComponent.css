@@ -1,0 +1,6 @@
+.navbar-container .bg-dark{
+  background-color: transparent !important;
+}
+.navbar-container-scroll .bg-dark{
+  background-color: #003184 !important;
+}
