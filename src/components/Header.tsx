@@ -3,12 +3,14 @@ import Typewriter from 'typewriter-effect';
 import '../assets/styles/components/Header.css';
 import headerImg from '../assets/static/headerImg.png'
 
+
+
 const Header = () => {
- 
+  
   
   return (
     <section className="header-section pt-5 mb-5 pb-5">
-      <div className="row">
+      <div className="row pt-5">
         <div className="col-md-6 mt-3 mb-3 header__content--left">
           <div>
             <h1><strong>Effren Anthony</strong></h1>

@@ -4,3 +4,10 @@
 .navbar-container-scroll .bg-dark{
   background-color: #003184 !important;
 }
+
+.navbar-container .nav-link, button {
+  font-weight: bold;
+}
+.navbar-container-scroll .nav-link, button{
+  font-weight: bold !important;
+}

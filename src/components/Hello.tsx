@@ -3,6 +3,7 @@ import React from 'react';
 import '../assets/styles/components/Hello.css'
 
 const Hello = () => {
+
   return (
     <section>
       <h1><b>|Hola!</b></h1>
