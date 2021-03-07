@@ -28,10 +28,27 @@ const Header = () => {
             <button className='btn btn-light header__button'><b>Conóceme</b></button>
           </div>
         </div>
-        <div className="col-md-6 d-flex justify-content-center mt-3 mb-3">
+        <div className="col-md-6 d-flex justify-content-center flex-column align-items-center mt-3 mb-3">
           <div className='header__img--container'>
-            <img src={headerImg} alt="Effren Anthony in Google" className='header__img h-100'/>
-          </div>
+            <img src={headerImg} alt="Effren Anthony in Google" className='header__img h-100'/>            
+          </div> 
+          <div className='row mt-4'>
+            <div className='header-social col-md-4'>
+              <a href="https://twitter.com/Etony27" target="_blank" rel="noopener noreferrer" className="header__icon--container">
+                <i className="fab fa-twitter"></i>
+              </a>
+            </div>
+            <div className='header-social col-md-4'>
+              <a href="https://github.com/EffrenAnthony" target="_blank" rel="noopener noreferrer" className="header__icon--container">
+                <i className="fab fa-github"></i>
+              </a>
+            </div>
+            <div className='header-social col-md-4'>
+              <a href="https://www.linkedin.com/in/effrenanthony/" target="_blank" rel="noopener noreferrer" className="header__icon--container">
+              <i className="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+            </div>         
         </div>
       </div>
     </section>

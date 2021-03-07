@@ -8,6 +8,9 @@ import Studies from '../components/Studies';
 import Techs from '../components/Techs';
 // import Componente from '../components/myComponent';
 import Cetifications from '../components/Cetifications';
+import Portfolio from '../components/Portfolio';
+import ContactMe from '../components/ContactMe';
+import FooterComponent from '../components/shared/FooterComponent';
 
 const Home = () => {
   return (
@@ -21,6 +24,9 @@ const Home = () => {
         <Techs />
         {/* <Componente /> */}
         <Cetifications />
+        <Portfolio />
+        <ContactMe />
+        <FooterComponent />
       </Container>
     </div>
   );

@@ -5,9 +5,47 @@
   background-color: #003184 !important;
 }
 
-.navbar-container .nav-link, button {
+@media (max-width: 768px){
+  .nav-elements-container a.p-2 {
+    background-color: #003184 !important;
+  }
+  .nav-elements-container button {
+    margin-left: 0px !important;
+  }
+}
+
+.navbar-container a, button {
   font-weight: bold;
 }
-.navbar-container-scroll .nav-link, button{
+
+.navbar-container a {
+  color: rgba(255, 255, 255, 0.411) !important;
+}
+.navbar-container a:hover {
+  color: rgb(255, 255, 255) !important;
+}
+.nav-elements-container a.p-2.active {
+  color: white !important;
+  text-decoration: none !important;
+}
+.nav-elements-container a.p-2:hover  {
+  color: white !important;
+  text-decoration: none !important;
+}
+.nav-elements-container a.p-2  {
+  color: rgba(255, 255, 255, 0.411) !important;
+  text-decoration: none !important;
+}
+.navbar-container-scroll a, button{
   font-weight: bold !important;
+}
+
+.navButton a.activeButton{
+  color: black !important;
+}
+.navButton a{
+  color: black !important;
+}
+.navButton a:hover{
+  color: black !important;
 }

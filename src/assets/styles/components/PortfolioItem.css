@@ -1,0 +1,48 @@
+.portfolio-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  transition: all .2s ease-in-out;
+  background-position: center;
+  background-size: contain;
+  background-repeat: inherit;
+}
+
+.portfolio-card:hover{
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px){
+  .portfolio-card:hover{
+    transform: scale(1.0);
+  }
+}
+.portfolio-item-content{
+  background: rgba(0, 0, 0, 0.85);
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.portfolio-content-hide{
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
+  
+}
+
+.portfolio-card:hover  > .portfolio-item-content > .portfolio-content-hide{
+  visibility: visible;
+  opacity: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.portfolio-content-hide .MuiAvatar-colorDefault{
+  background-color: #003184;
+  height: 50px;
+  width: 50px;
+}
+.portfolio-content-hide .MuiAvatar-colorDefault:hover{
+  background-color: #F52757;
+}

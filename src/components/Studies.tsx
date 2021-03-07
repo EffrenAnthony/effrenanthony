@@ -158,8 +158,8 @@ const Studies = () => {
       ]
 
   return (
-    <section className="pt-5 pb-5">
-      <h1><b>|Estudios</b></h1>
+    <section className="pt-5 pb-5" id='studies'>
+      <h1 className="pt-2"><b>|Estudios</b></h1>
       <Timeline align="alternate">
         {
           studies.map((item, key) => (

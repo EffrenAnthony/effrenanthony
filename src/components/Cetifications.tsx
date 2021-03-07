@@ -32,8 +32,8 @@ const Cetifications = () => {
     },
   ]
   return (
-    <section className="pt-5 pb-5">
-      <h1 className="pb-5"><b>|Certificaciones</b></h1>
+    <section className="pt-5 pb-5" id='certifications'>
+      <h1 className="pt-2 pb-5"><b>|Certificaciones</b></h1>
       {
         cetifications.map((item, key) => (
           <div className="row pt-2 pb-2" key={key}>

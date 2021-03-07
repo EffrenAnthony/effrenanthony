@@ -35,8 +35,8 @@ const Experience = () => {
   ];
   
   return (
-    <section className="pt-5 pb-5">
-      <h1><b>|Mi experiencia</b></h1>
+    <section className="pt-5 pb-5" id='expertice'>
+      <h1 className='pt-2'><b>|Mi experiencia</b></h1>
       <div className="pr-5 pl-5 pb-5 pt-2 ">
         {/* <div className="col-md-6 "> */}
           {
