@@ -2,6 +2,7 @@ import React from 'react';
 import Typewriter from 'typewriter-effect';
 import '../assets/styles/components/Header.css';
 import headerImg from '../assets/static/headerImg.png'
+import { Link as LinkS } from 'react-scroll';
 
 
 
@@ -25,7 +26,11 @@ const Header = () => {
             }}
           />
           <div className='mt-3 mb-3'>
-            <button className='btn btn-light header__button'><b>Conóceme</b></button>
+            <button className='btn btn-light header__button'>
+            <LinkS activeClass="activeButton" to="hello" spy={true} smooth={true} duration={500} className=''>
+              <b>!Hola!</b>
+            </LinkS>
+            </button>
           </div>
         </div>
         <div className="col-md-6 d-flex justify-content-center flex-column align-items-center mt-3 mb-3">

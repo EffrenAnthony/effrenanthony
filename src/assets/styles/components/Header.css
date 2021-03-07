@@ -68,3 +68,13 @@
   color: white;
   text-decoration: none;
 }
+
+.header__button a.activeButton{
+  color: black !important;
+}
+.header__button a{
+  color: black !important;
+}
+.header__button a:hover{
+  color: black !important;
+}

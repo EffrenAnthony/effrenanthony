@@ -19,7 +19,7 @@ const ContactMe = () => {
     Swal.fire({
         icon: "success",
         title: 'Excelente!',
-        text: 'Nos pondremos en contacto lo antes posible para resolver tus dudas',
+        text: 'Me pondré en contácto contigo lo antes posible.',
       // footer: 'Mantente atento a tu correo, te enviaremos una confirmación para la reunión que acabas de agendar'
     })
     }
