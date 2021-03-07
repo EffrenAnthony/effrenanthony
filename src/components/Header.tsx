@@ -10,7 +10,7 @@ const Header = () => {
   
   
   return (
-    <section className="header-section pt-5 mb-5 pb-5">
+    <section className="header-section pt-5 mb-5 pb-5" id='header'>
       <div className="row pt-5 header-container">
         <div className="col-md-6 mt-3 mb-3 header__content--left">
           <div className="header-title">

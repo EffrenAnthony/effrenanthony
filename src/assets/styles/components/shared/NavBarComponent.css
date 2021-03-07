@@ -49,3 +49,16 @@
 .navButton a:hover{
   color: black !important;
 }
+
+#nav-brand.active {
+  color: white !important;
+  text-decoration: none !important;
+}
+#nav-brand:hover  {
+  color: white !important;
+  text-decoration: none !important;
+}
+#nav-brand  {
+  color: rgb(255, 255, 255) !important;
+  text-decoration: none !important;
+}

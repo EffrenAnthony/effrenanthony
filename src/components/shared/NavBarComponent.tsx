@@ -18,7 +18,10 @@ const NavBarComponent = () => {
       <div className={scrolling ? "navbar-container-scroll" : "navbar-container"}>
         <Navbar bg="dark" expand="lg" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">{scrolling ? <b>Effren Anthony</b>  : ""}</Navbar.Brand>
+          <LinkS activeClass="active" to="header" spy={true} smooth={true} duration={500} className='p-2' id='nav-brand'>
+            {scrolling ? <b>Effren Anthony</b>  : ""}
+          </LinkS>
+          {/* <Navbar.Brand href="#home">{scrolling ? <b>Effren Anthony</b>  : ""}</Navbar.Brand> */}
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto nav-elements-container">
