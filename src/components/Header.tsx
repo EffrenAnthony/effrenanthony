@@ -11,9 +11,9 @@ const Header = () => {
   
   return (
     <section className="header-section pt-5 mb-5 pb-5">
-      <div className="row pt-5">
+      <div className="row pt-5 header-container">
         <div className="col-md-6 mt-3 mb-3 header__content--left">
-          <div>
+          <div className="header-title">
             <h1><strong>Effren Anthony</strong></h1>
             <h1>Peña Sánchez</h1>
           </div>
@@ -25,12 +25,12 @@ const Header = () => {
               loop: true,
             }}
           />
-          <div className='mt-3 mb-3'>
-            <button className='btn btn-light header__button'>
-            <LinkS activeClass="activeButton" to="hello" spy={true} smooth={true} duration={500} className=''>
+          <div className='mt-3 mb-3 header__button'>
+            {/* <button className='btn btn-light header__button'> */}
+            <LinkS activeClass="activeButton" to="hello" spy={true} smooth={true} duration={500} className='btn btn-light header__button'>
               <b>!Hola!</b>
             </LinkS>
-            </button>
+            {/* </button> */}
           </div>
         </div>
         <div className="col-md-6 d-flex justify-content-center flex-column align-items-center mt-3 mb-3">

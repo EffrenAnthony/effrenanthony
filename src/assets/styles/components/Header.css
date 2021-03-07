@@ -40,12 +40,34 @@
 
 @media(min-width: 500px){
   .header__img--container{
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
     padding: 50px;
   }
   .header__content--left{
-    align-items: flex-start;
+    align-items: flex-center;
+  }
+  .header-container{
+    margin-top: 85px;
+  }
+  .header-title h1{
+    font-size: 70px;
+  }
+  .header-section .Typewriter__wrapper{
+    font-size: 60px;
+  }
+  .header-section .Typewriter__cursor{
+    font-size: 60px;
+  }
+  
+  .header__button a.activeButton{
+    font-size: 40px;
+  }
+  .header__button a{
+    font-size: 40px;
+  }
+  .header__button a:hover{
+    font-size: 40px;
   }
 }
 
@@ -78,3 +100,4 @@
 .header__button a:hover{
   color: black !important;
 }
+
