@@ -12,7 +12,7 @@ const Hello = () => {
           <div className='hello__img--container' />
         </div>
         <div className="col-md-6">
-          <p className="text-justify">Hola! Soy Anthony o Tony como me dicen mis amigos, voy a presentarme muy rápidamentem en este espacio.</p>
+          <p className="text-justify">Hola! Soy Anthony o Tony como me dicen mis amigos, voy a presentarme muy rapidamente en este espacio.</p>
           <p className="text-justify">Bueno comence estudiando ingeniería civil, me bachilleré e incluso me titule con felicitación publica y aunque me gustaba la ingeniería civil, al poco tiempo de salir me dí cuenta que mis pasiones eran otras.</p>
           <p className="text-justify">Y no hablo de la música o el deporte. Hablo del software y las Startups. Recuerdo haber leido sobre Silicon Valley y cómo allí iniciaban y crecían Startups como instagram, facebook o google, y bueno, me enamoré de ese mundo.</p>
           <p className="text-justify">Junté algunos amigos y les comenté de algunas ideas que tenía sobre negocios digitales en mi pais, de todos ellos solo uno me siguió y hoy en día es mi actual socio.</p>
