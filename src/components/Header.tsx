@@ -28,7 +28,7 @@ const Header = () => {
           <div className='mt-3 mb-3 header__button'>
             {/* <button className='btn btn-light header__button'> */}
             <LinkS activeClass="activeButton" to="hello" spy={true} smooth={true} duration={500} className='btn btn-light header__button'>
-              <b>!Hola!</b>
+              <b>👋🏻 !Hola!</b>
             </LinkS>
             {/* </button> */}
           </div>
