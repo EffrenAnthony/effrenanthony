@@ -17,7 +17,7 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://twitter.com/etony27" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/neutral-icons/src/images/icons/Social/twitter.svg" alt="etony27" height="30" width="40" /></a>
+<a href="https://twitter.com/etony27" target="blank"><img align="center" src="https://seeklogo.com/images/T/twitter-logo-A84FE9258E-seeklogo.com.png" alt="etony27" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/effrenanthony/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/neutral-icons/src/images/icons/Social/linked-in-alt.svg" alt="effrenanthony/" height="30" width="40" /></a>
 </p>
 
