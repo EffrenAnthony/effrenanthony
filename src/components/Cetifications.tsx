@@ -2,30 +2,37 @@ import React from 'react';
 import tecsup from '../assets/static/tecsup.png'
 import trepcamp from '../assets/static/trepcamp.png'
 import pmi from '../assets/static/pmi.png'
+import mit from '../assets/static/mit.png'
 
 const Cetifications = () => {
 
   const cetifications = [
     {
       id:0,
+      img: mit,
+      title: 'Professional Certificate in Coding: Full Stack Development with MERN',
+      year: '2022'
+    },
+    {
+      id:1,
       img: tecsup,
       title: 'Desarrollo Móvil con Flutter',
       year: '2020'
     },
     {
-      id:1,
+      id:2,
       img: tecsup,
       title: 'Desarrollo Full Stack Web Javascript',
       year: '2019'
     },
     {
-      id:2,
+      id:3,
       img: trepcamp,
       title: 'TrepCamp Silicon Valley, UC Berkeley',
       year: '2018'
     },
     {
-      id:3,
+      id:4,
       img: pmi,
       title: 'Certified Asociated in Project Management (CAPM®)',
       year: '2017'

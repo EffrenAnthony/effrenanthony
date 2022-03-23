@@ -10,14 +10,30 @@ const Experience = () => {
   const experience: Exp[] = [
     {
       id: 0, 
+      position: "Web UI Developer",
+      title: "Web UI Developer",
+      company: "Globant",
+      date: "2021 - Presente",
+      img: 'https://www.globant.com/sites/default/files/2021-04/Globant_.png',
+    },
+    {
+      id: 1, 
       position: "CEO y Desarrollador Web Mobil",
-      title: "Desarrollador",
+      title: "CEO - Desarrollador",
       company: "PooPaye SAC",
       date: "2017 - Presente",
       img: poopaye,
     },
     {
-      id: 1, 
+      id: 2, 
+      position: "Software Egineer",
+      title: "Frontend Developer",
+      company: "Zoluxiones",
+      date: "2021 - 2021",
+      img: 'https://ii.ct-stc.com/3/logos/empresas/2020/05/27/2d75be4caf864ff995c5131427708thumbnail.jpg',
+    },
+    {
+      id: 3, 
       position: "Asistente Lean Construction",
       title: "Ingeniero Civil",
       company: "Marquisa SAC",
@@ -25,7 +41,7 @@ const Experience = () => {
       img: marquisa,
     },
     {
-    id: 2, 
+    id: 4, 
       position: "Costos y Presupuestos",
       title: "Ingeniero Civil",
       company: "Gomez Ingenieros",
@@ -47,7 +63,7 @@ const Experience = () => {
                       <h3 className='mt-3 mb-3 pb-4 pt-4'><u>{item.title}</u></h3>
                       <div style={{"width":"20px"}}></div>
                     {
-                    item.title === 'Desarrollador' ?
+                    item.title !== 'Ingeniero Civil' ?
                       <img src='https://img.icons8.com/cotton/2x/source-code--v2.png' alt="" height='40px'></img>
                       :
                       <img src='https://img.icons8.com/dusk/2x/engineer.png' alt="" height='40px'></img>
